@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/cc-pl
+# catalog-date 2009-09-24 20:53:04 +0200
+# catalog-license pd
+# catalog-version 1.02.2
 Name:		texlive-cc-pl
 Version:	1.02.2
 Release:	1
@@ -72,6 +78,7 @@ included.
 %{_texmfdistdir}/fonts/type1/public/cc-pl/pcslc9.pfb
 %{_texmfdistdir}/fonts/type1/public/cc-pl/pcti10.pfb
 %doc %{_texmfdistdir}/doc/fonts/cc-pl/README.cc-pl
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -82,3 +89,5 @@ included.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
