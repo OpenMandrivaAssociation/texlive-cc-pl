@@ -80,3 +80,18 @@ included.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.02.2-2
++ Revision: 750044
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.02.2-1
++ Revision: 718021
+- texlive-cc-pl
+- texlive-cc-pl
+- texlive-cc-pl
+- texlive-cc-pl
+- texlive-cc-pl
+
