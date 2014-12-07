@@ -6,7 +6,7 @@
 # catalog-version 1.02.2
 Name:		texlive-cc-pl
 Version:	1.02.2
-Release:	8
+Release:	9
 Summary:	Polish extension of Computer Concrete fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cc-pl
