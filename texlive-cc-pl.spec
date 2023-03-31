@@ -1,6 +1,6 @@
 Name:		texlive-cc-pl
 Version:	58602
-Release:	1
+Release:	2
 Summary:	Polish extension of Computer Concrete fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/cc-pl
