@@ -3,7 +3,7 @@ Version:	58602
 Release:	2
 Summary:	Polish extension of Computer Concrete fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/cc-pl
+URL:		https://www.ctan.org/tex-archive/fonts/cc-pl
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cc-pl.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cc-pl.doc.r%{version}.tar.xz
